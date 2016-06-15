@@ -9,6 +9,7 @@
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;;
   font-weight: 100;
+  font-size: 20px;
   color: white;
 }
 
@@ -48,7 +49,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 body {
-  background: url('bg2.png');
+  background: url('bg.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
@@ -64,4 +65,8 @@ body {
 
 .booyah-box h2, .booyah-box h1 {
   margin:10px;
+}
+
+.clr {
+  clear: both;
 }
