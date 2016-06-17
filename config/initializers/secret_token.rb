@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Flixster::Application.config.secret_key_base = 'ef67dd871acb2aeef620c0ed806f106fe6bbe3b3f0d213864e9887be8505dfd5f83311fd3de9ac0da42eb2039d063eaa85e640692ceff79c812981e04601cb70'
+Flixter::Application.config.secret_key_base = 'ef67dd871acb2aeef620c0ed806f106fe6bbe3b3f0d213864e9887be8505dfd5f83311fd3de9ac0da42eb2039d063eaa85e640692ceff79c812981e04601cb70'
