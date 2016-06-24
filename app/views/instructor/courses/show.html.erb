@@ -64,12 +64,11 @@
                 <span class="glyphicon glyphicon-list"></span>
               </div>
               <div class="col-xs-11 text-center">
-                <p>
+                <%= link_to lesson_path(lesson) do %>
                   <b><%= lesson.title %></b>
-                </p>
-                <p>
+                  <br />
                   <%= lesson.subtitle %>
-                </p>
+                <% end %>
               </div>
               <br class="clr" />
             </li>
